@@ -2,7 +2,7 @@ import React from "react";
 
 import classes from "./AdminTesting.module.css";
 
-export const AdminTesting = (props) => {
+const AdminTesting = (props) => {
   return (
     <div className={classes.for_testing}>
       <p>FOR TESTING PURPOSE ONLY</p>
@@ -25,3 +25,5 @@ export const AdminTesting = (props) => {
     </div>
   );
 };
+
+export default AdminTesting;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./Staking.module.css";
 
-export const Staking = (props) => {
+const Staking = (props) => {
   const [inputValue, setInputValue] = useState("");
   const inputChangeHandler = (event) => {
     event.preventDefault();
@@ -60,3 +60,5 @@ export const Staking = (props) => {
     </div>
   );
 };
+
+export default Staking;
